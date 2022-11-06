@@ -2,11 +2,15 @@
 
 #include <QtWidgets/QMainWindow>
 
-class ChattingWindow : public QMainWindow
+namespace ChatApp
 {
-    Q_OBJECT
+    class ChattingWindow : public QMainWindow
+    {
+        Q_OBJECT
 
-public:
-    ChattingWindow(QWidget *parent = nullptr);
-    ~ChattingWindow();
-};
+    public:
+        ChattingWindow(QWidget* parent = nullptr);
+        ~ChattingWindow();
+    };
+}
+

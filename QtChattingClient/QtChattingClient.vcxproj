@@ -97,6 +97,13 @@
   <ItemGroup>
     <ClCompile Include="src\ChattingWindow.cpp" />
     <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\StyleManager.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resource\qss\AppWindow.qss" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\StyleManager.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
