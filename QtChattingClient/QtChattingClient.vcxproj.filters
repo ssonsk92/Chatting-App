@@ -30,6 +30,9 @@
     <QtMoc Include="src\ChattingWindow.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="src\LoginPage.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\ChattingWindow.cpp">
@@ -39,6 +42,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="src\StyleManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LoginPage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/">
         <file>qss/MainWindow.qss</file>
+        <file>image/talk.png</file>
     </qresource>
 </RCC>
