@@ -26,6 +26,7 @@ namespace ChatApp
 
 	public:
 		const Style MainWindow;
+		const Style PushButton;
 	};
 }
 

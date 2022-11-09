@@ -3,6 +3,7 @@
 #include <QGuiApplication>
 #include <QScreen>
 #include "LoginPage.h"
+#include "TitleBar.h"
 
 namespace ChatApp
 {
@@ -19,9 +20,17 @@ namespace ChatApp
         int windowHeight = s.size.height();
         setGeometry(screenWidth / 2 - windowWidth / 2, screenHeight / 2 - windowHeight / 2, windowWidth, windowHeight);
         setStyleSheet(StyleManager::loadQSS(s.qssPath));
-
-        LoginPage* loginPage = new LoginPage(this);
-        setCentralWidget(loginPage);
+        
+        QWidget *centralWidget = new QWidget(this);
+        QVBoxLayout *centralLayout = new QVBoxLayout;
+        centralLayout->setSpacing(0);
+        centralLayout->setContentsMargins(0, 0, 0, 0);
+        TitleBar* titleBar = new TitleBar(centralWidget, this);
+        centralLayout->addWidget(titleBar);
+        LoginPage *loginPage = new LoginPage(centralWidget);
+        centralLayout->addWidget(loginPage);
+        centralWidget->setLayout(centralLayout);
+        setCentralWidget(centralWidget);
     }
 
     ChattingWindow::~ChattingWindow()

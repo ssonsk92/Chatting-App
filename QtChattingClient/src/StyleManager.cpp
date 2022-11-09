@@ -23,7 +23,8 @@ namespace ChatApp
     }
 
     StyleManager::StyleManager()
-        : MainWindow(QSize(360, 590), ":/qss/MainWindow.qss")
+        : MainWindow(QSize(360, 590), ":qss/MainWindow.qss")
+        , PushButton(QSize(16, 16), ":qss/PushButton.qss")
     {
         
     }

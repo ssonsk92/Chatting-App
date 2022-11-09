@@ -99,11 +99,13 @@
     <ClCompile Include="src\LoginPage.cpp" />
     <ClCompile Include="src\main.cpp" />
     <ClCompile Include="src\StyleManager.cpp" />
+    <ClCompile Include="src\TitleBar.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="resource\qss\AppWindow.qss" />
   </ItemGroup>
   <ItemGroup>
+    <QtMoc Include="src\TitleBar.h" />
     <QtMoc Include="src\LoginPage.h" />
     <ClInclude Include="src\StyleManager.h" />
   </ItemGroup>

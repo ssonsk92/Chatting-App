@@ -11,7 +11,7 @@ namespace ChatApp
         layout->setContentsMargins(QMargins(60, 0, 60, 0));
         QLabel* labelTalkImage = new QLabel(this);
         labelTalkImage->setAlignment(Qt::AlignHCenter | Qt::AlignVCenter);
-        labelTalkImage->setPixmap(QPixmap(":/image/talk.png"));
+        labelTalkImage->setPixmap(QPixmap(":image/talk.png"));
         QLineEdit* editID = new QLineEdit(this);
         editID->setFixedHeight(40);
         QLineEdit* editPW = new QLineEdit(this);

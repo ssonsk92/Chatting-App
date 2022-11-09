@@ -2,5 +2,8 @@
     <qresource prefix="/">
         <file>qss/MainWindow.qss</file>
         <file>image/talk.png</file>
+        <file>image/close.png</file>
+        <file>image/minimum.png</file>
+        <file>qss/PushButton.qss</file>
     </qresource>
 </RCC>
