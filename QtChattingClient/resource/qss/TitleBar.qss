@@ -1,0 +1,32 @@
+/*
+normal : 988900
+hover : 252100
+*/
+
+QPushButton#minimum-button {
+    background-color: transparent;
+    image: url(":image/minimum-normal.png");
+    width: 16px;
+    height: 16px;
+}
+
+QPushButton#minimum-button:hover {
+    background-color: transparent;
+    image: url(":image/minimum-hover.png");
+    width: 16px;
+    height: 16px;
+}
+
+QPushButton#close-button {
+    background-color: transparent;
+    image: url(":image/close-normal.png");
+    width: 16px;
+    height: 16px;
+}
+
+QPushButton#close-button:hover {
+    background-color: transparent;
+    image: url(":image/close-hover.png");
+    width: 16px;
+    height: 16px;
+}
